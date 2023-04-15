@@ -13,7 +13,7 @@ Plot = false # output of plots true or false
 # Segments
 segments = 1
 # Input
-Scenario = DataFrame(XLSX.readtable("scenario_data_2019.xlsx", "scenario")...)
+Scenario = DataFrame(XLSX.readtable("scenario_data_2019.xlsx", "scenario"))
 T = collect(1:nrow(Scenario))
 # Wind farm
 C_W = 104.5# nominal power wind in MW
